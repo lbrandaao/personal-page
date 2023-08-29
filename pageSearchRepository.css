@@ -1,0 +1,44 @@
+.search-repository {
+    height: 35vh;
+}
+
+.search-repository > .row {
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    align-items: center;
+}
+
+.search-repository > .row > input {
+    background-color: rgb(53, 53, 53);
+    
+    border-radius: 0.8rem;
+    border: 1px solid rgb(109, 109, 109);
+    outline: 0;
+    
+    color: rgb(241, 241, 241);
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-repository > .row > input::placeholder {
+    color: rgb(109, 109, 109);
+}
+
+.search-repository > .row > input:focus-within {
+    border: 1px solid rgb(3, 177, 179);
+}
+
+.search-repository > .row > button {
+    background-color: rgb(39, 39, 39);
+
+    margin-left: 8px;
+
+    padding: 10px;
+    
+    color: rgb(241, 241, 241);
+
+    border-width: 0px;
+    border-radius: 2rem;
+    outline: 0;
+}

@@ -1,0 +1,31 @@
+.section-profile {
+    margin-top: 15px;
+    border-top: 1px solid rgb(3, 177, 179);
+    border-radius: 1rem;
+    padding-top: 20px;
+}
+
+.section-profile  .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.section-profile > .row > .img {
+    border-radius: 1.8rem;
+}
+
+.section-profile > .box-information {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.section-profile > .box-information > .row {
+    margin-bottom: 0px;
+}
+
+.section-profile .row > p {
+    margin-bottom: 0px;
+    
+    font-size: 0.9em;
+    font-weight: 300;
+}
